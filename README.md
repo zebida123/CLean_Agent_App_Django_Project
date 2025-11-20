@@ -1,18 +1,5 @@
 # Clean_Agent_App_Django_Project
 
-## Badges
-
-```{=html}
-<p align="left">
-```
-`<img src="https://img.shields.io/badge/Python-3.10+-blue.svg" />`{=html}
-`<img src="https://img.shields.io/badge/Django-4.x-success.svg" />`{=html}
-`<img src="https://img.shields.io/badge/Build-Passing-brightgreen.svg" />`{=html}
-`<img src="https://img.shields.io/badge/Status-Active-informational.svg" />`{=html}
-`<img src="https://img.shields.io/badge/License-MIT-green.svg" />`{=html}
-```{=html}
-</p>
-```
 ## Overview
 
 Clean Agent App is a platform for managing cleaning services between
@@ -40,7 +27,7 @@ full workflow system.
 -   Manage services
 -   View system reports
 
-### Client
+### Client/User
 
 -   Register an account
 -   View available services
@@ -53,7 +40,19 @@ full workflow system.
 -   Receive bookings
 -   Update job status until completion
 
+## Badges
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3.x-blue.svg" />
+  <img src="https://img.shields.io/badge/Django-Framework-success.svg" />
+  <img src="https://img.shields.io/badge/Status-Active-green.svg" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+</p>
+
+
 ## Installation
+
+Getting Started
 
 1.  Clone repository
 
@@ -115,7 +114,7 @@ full workflow system.
 
 ## Contributing
 
-1.  Fork the repository\
+1.  Fork the repository.
 
 2.  Create a new branch
 
@@ -123,26 +122,34 @@ full workflow system.
     git checkout -b feature/your-feature
     ```
 
-3.  Make changes\
+3.  Commit your changes
 
-4.  Submit a Pull Request
+   ``` bash
+   git commit -am `Add new feature
+   ```
+
+4.  Push the branch
+
+    ``` bash
+    git push origin feature/your-feature
+    ```
+5.  Open a Pull Request.
 
 ## Screenshots
 
-Add your screenshots here: - Login page\
-- Admin dashboard\
-- Client booking page\
+Add your screenshots here: - Login page
+- Admin dashboard
+- Client booking page
 - Provider service panel
 
 ## Contact
 
-**Developer:** zebida123\
-**Email:** solomondaudi05@gmail.com\
+**Developer:** zebida123
+**Email:** solomondaudi05@gmail.com
 **Project:** Clean_Agent_App_Django_Project
 
 ## License
 
     This project is licenced under the MIT License see the LICENCE file for details
-
     
     THE SOFTWARE.
