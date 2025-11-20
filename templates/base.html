@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head><title>Clean Agent App</title></head>
+<body>
+<header><h1>Clean Agent</h1></header>
+<main>{% block content %}{% endblock %}</main>
+<script>
+(function(){
+  const ws_scheme = window.location.protocol === 'https:' ? 'wss' : 'ws';
+  const socket = new WebSocket(ws_scheme + '://' + window.location.host + '/ws/notifications/');
+  socket.onmessage = function(e){
+    try{
+      const data = JSON.parse(e.data);
+      console.log('Notification:', data);
+    }catch(err){console.error(err)}
+  };
+})();
+</script>
+</body>
+</html>
